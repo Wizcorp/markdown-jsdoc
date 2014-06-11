@@ -113,6 +113,10 @@ function generate(title, docs, filename, resolveLinks) {
 		docs: docs
 	};
 
+	if (!docs[0].meta) {
+		// Global
+		return;
+	}
 	var outpath = path.join(docs[0].meta.path, filename);
 	var markdown = view.render('container.tmpl', docData);
 	markdown = markdown.replace(/\n\n\n+/g, '\n\n');

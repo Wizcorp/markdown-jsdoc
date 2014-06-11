@@ -2,8 +2,10 @@
 	"name": "markdown-jsdoc",
 	"version": "0.1.0",
 	"description": "Markdown template for JSDoc 3",
-	"devDependencies": {
-		"jsdoc": "^3.3.0-alpha5"
+	"dependencies": {
+		"jsdoc": "^3.3.0-alpha5",
+		"taffydb": "https://github.com/hegemonic/taffydb/tarball/master",
+		"catharsis": "~0.7.1"
 	},
 	"scripts": {
 	},

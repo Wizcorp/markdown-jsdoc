@@ -1,0 +1,26 @@
+{
+	"name": "markdown-jsdoc",
+	"version": "0.1.0",
+	"description": "Markdown template for JSDoc 3",
+	"devDependencies": {
+		"jsdoc": "^3.3.0-alpha5"
+	},
+	"scripts": {
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/Wizcorp/markdown-jsdoc.git"
+	},
+	"keywords": [
+		"jsdoc",
+		"jsdoc3",
+		"markdown",
+		"template"
+	],
+	"author": "Wizcorp KK",
+	"license": "MIT",
+	"readmeFilename": "README.md",
+	"bugs": {
+		"url": "https://github.com/Wizcorp/markdown-jsdoc/issues"
+	}
+}
